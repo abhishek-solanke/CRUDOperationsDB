@@ -95,7 +95,7 @@ public class myController
 		System.out.println("recored Saved with Id:"+newObj.getEmpno()+"\n "+newObj);
 		attr.addFlashAttribute("updtmsg",newObj.getEmpno()+" NO. Employee details are updated");
 		//return LVN
-		//return "success_edit";
+		//return "success_edit"; //post mapping problem is solved
 		return "redirect:report";
 	}
 	
